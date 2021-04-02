@@ -1,5 +1,5 @@
-# 5.9
-# Exercise 1
+# chapter 5
+# exercise 1
 def e1():
     total = 0
     count = 0
@@ -17,7 +17,7 @@ def e1():
     avg = total/count
     print(total, count, avg)
 
-# exercise 1
+# exercise 2
 def e2():
     largest = None
     smallest = None
