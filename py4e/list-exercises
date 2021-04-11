@@ -1,0 +1,24 @@
+# exercise 1
+def chop(t):
+    del t[0]
+    del t[-1]
+
+def middle(t):
+    return t[1:-1]
+    
+t1 = ['1', '2', '3']
+t2 = chop(t1)
+# print(t2)
+t3 = middle([1, '2', 3])
+# print(t3)
+
+# exercise 2
+l = input('Enter file address: ')
+fout = open(l)
+r = []
+for line in fout:
+    t = line.split()
+    for word in t:
+        if not word in r: r.append(word)
+r.sort()
+print(r)
